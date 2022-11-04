@@ -55,6 +55,10 @@ Por padrão a aplicação rodará localmente na porta 3000.
 
 https://github.com/brainnco-exs/readme-frontend
 
+## Repositório com o desafio proposto
+[Desafio Brainnco](https://github.com/brainnco-exs/readme-frontend)
+
+
 
 ## AUTOR
 
