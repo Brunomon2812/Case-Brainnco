@@ -11,8 +11,6 @@ O projeto é um case proposto pela empresa Brainnco e simula uma aplicação Web
 - Ao mudar o combo-box, o tema do sorteio, número do sorteio, data do sorteio e números sorteados também mudam.
 - A aplicação é responsiva para mobile.
 
-## 🔗 Link para visualização do site (SURGE)
-[Loteria](https://nutritious-summer.surge.sh/)
 
 ## 💻 Desktop:
 ![error_ocurred](https://user-images.githubusercontent.com/104601906/194668647-3bb62624-68f4-400d-be35-36363c994c9c.png)
