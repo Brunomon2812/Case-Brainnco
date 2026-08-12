@@ -1,65 +1,66 @@
 # Brainnco Front-End Challenge 🍀
 
-## 🚀 Descrição do Projeto
+A React front end that renders the results of the Brazilian CAIXA lotteries, built as a technical
+challenge proposed by [Brainnco](https://github.com/brainnco-exs/readme-frontend).
 
-O projeto é um case proposto pela empresa Brainnco e simula uma aplicação Web Front-End que renderiza diferentes resultados das loterias da Caixa.
+## About
 
-## 📋 Funcionalidades
+The app fetches lottery data from an API and lets the user switch between draws. Selecting a
+different lottery re-themes the whole page — colour scheme, logo, draw number, draw date and the
+drawn numbers all update together.
 
-- A aplicação suporta os 6 sorteios: Mega-sena, Quina, Lotofácil, Lotomania, Timemania e Dia de sorte.
-- Todos esses sorteios estão em um combo-box/select.
-- Ao mudar o combo-box, o tema do sorteio, número do sorteio, data do sorteio e números sorteados também mudam.
-- A aplicação é responsiva para mobile.
+## Features
 
+- Supports all six lotteries: Mega-Sena, Quina, Lotofácil, Lotomania, Timemania and Dia de Sorte
+- Lottery selection through a dropdown
+- The theme colour, draw number, draw date and drawn numbers update on selection
+- Loading spinners while each request is in flight
+- Error state when a request fails
+- A 404 page for unmatched routes
+- Responsive down to mobile widths
 
-## 💻 Desktop:
-![error_ocurred](https://user-images.githubusercontent.com/104601906/194668647-3bb62624-68f4-400d-be35-36363c994c9c.png)
+## Tech stack
 
-![spinner_loading](https://user-images.githubusercontent.com/104601906/194668651-d8972164-93b1-43f9-a1a6-93f8513af5f4.png)
+- [React](https://react.dev/)
+- [Styled Components](https://styled-components.com/)
+- [React Router](https://reactrouter.com/)
+- [Axios](https://github.com/axios/axios)
 
-![megasena](https://user-images.githubusercontent.com/104601906/194668661-7c7f8345-b99f-4767-9e59-fc7ed91105eb.png)
+## Running it locally
 
-![lotomania](https://user-images.githubusercontent.com/104601906/194668680-4c67564a-201c-4080-8167-74bd964082ad.png)
+Requires [Node.js](https://nodejs.org/en/) — the project was built against **16.17.0 LTS**.
 
-![errorpage](https://user-images.githubusercontent.com/104601906/194668721-3e4f703c-d8df-4a2d-b41e-4d090b120c0a.png)
-
-## 📱 Mobile:
-<img width="284" alt="mobile" src="https://user-images.githubusercontent.com/104601906/194669763-c9017d9b-4c38-4f41-9c67-727640db6ac8.png">
-
-
-
-### 🔧 Configurações de Ambiente / Instalação
-
-Para rodar o projeto na máquina local é necessário a instalação do node js:
-* [Node.js](https://nodejs.org/en/) / Use a versão <i>16.17.0 LTS</i>
-
-Tendo o node.js instalado, efetue o comando para instalar as dependências necessários para rodar o projeto localmente:
+```bash
+git clone https://github.com/Brunomon2812/Case-Brainnco.git
+cd Case-Brainnco
+npm install
+npm start
 ```
-npm install 
-```
 
-Pós instalação das dependências, execute o comando necessário para rodar o projeto:
-`npm start`
+The app runs on http://localhost:3000 by default.
 
-Por padrão a aplicação rodará localmente na porta 3000.
+## Screenshots
 
-## 🛠️ Tecnologias Utilizadas
+### Desktop
 
-- [React](https://pt-br.reactjs.org/)  
-- [Styled-components](https://styled-components.com/) 
-- [Axios](https://github.com/axios/axios) - 
+![Mega-Sena results](https://user-images.githubusercontent.com/104601906/194668661-7c7f8345-b99f-4767-9e59-fc7ed91105eb.png)
 
-## Repositório com o desafio proposto
+![Lotomania results](https://user-images.githubusercontent.com/104601906/194668680-4c67564a-201c-4080-8167-74bd964082ad.png)
 
-https://github.com/brainnco-exs/readme-frontend
+![Loading spinner state](https://user-images.githubusercontent.com/104601906/194668651-d8972164-93b1-43f9-a1a6-93f8513af5f4.png)
 
-## Repositório com o desafio proposto
-[Desafio Brainnco](https://github.com/brainnco-exs/readme-frontend)
+![Request error state](https://user-images.githubusercontent.com/104601906/194668647-3bb62624-68f4-400d-be35-36363c994c9c.png)
 
+![404 page](https://user-images.githubusercontent.com/104601906/194668721-3e4f703c-d8df-4a2d-b41e-4d090b120c0a.png)
 
+### Mobile
 
-## AUTOR
+<img width="284" alt="Mobile layout" src="https://user-images.githubusercontent.com/104601906/194669763-c9017d9b-4c38-4f41-9c67-727640db6ac8.png">
 
-Bruno Monteiro  | https://github.com/Brunomon2812
---------- | ------
-[<img src="https://avatars.githubusercontent.com/Brunomon2812" width="75px;"/>](https://github.com/Brunomon2812) | [Bruno Monteiro](https://github.com/Brunomon2812)
+## Challenge brief
+
+The original specification for this challenge: [brainnco-exs/readme-frontend](https://github.com/brainnco-exs/readme-frontend)
+
+## Author
+
+Bruno Monteiro — [GitHub](https://github.com/Brunomon2812) · [LinkedIn](https://www.linkedin.com/in/brunoarmonteiro/)

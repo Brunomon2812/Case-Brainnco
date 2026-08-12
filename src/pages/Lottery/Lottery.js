@@ -117,7 +117,7 @@ const Lottery = (props) => {
           )}
         </TitleContainer>
         <InfoContainer>
-          <InfoTitle>CONCURSO</InfoTitle>
+          <InfoTitle>DRAW</InfoTitle>
           {draw !== undefined ? (
             <InfoText>
               {draw.id} - {new Date(draw.data).toLocaleDateString()}
@@ -143,8 +143,7 @@ const Lottery = (props) => {
           )}
         </NumbersContainer>
         <TextFooter>
-          Este sorteio é meramente ilustrativo e não possui nenhuma ligação com
-          a CAIXA.
+          This draw is for illustration only and has no affiliation with CAIXA.
         </TextFooter>
         </ResultsContainer>
       </CurveContainer>

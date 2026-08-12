@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Erro from "../../img/Error.png"
+import ErrorImg from "../../img/Error.png"
 import { DivContainer, DivText, Img } from './styled'
 
 const ErrorPage = ()=>{
@@ -18,7 +18,7 @@ const ErrorPage = ()=>{
                 <button onClick={onClickHome}>Home Page</button>
             </DivText>
             <div>
-                <Img src={Erro} alt={"astronaut error"}/>
+                <Img src={ErrorImg} alt={"astronaut error"}/>
             </div>
         </DivContainer>
        
